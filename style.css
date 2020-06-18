@@ -8,7 +8,6 @@ green: #70E903
 */
 body {
   background-color: black;
-  width: 100vw;
   justify-content: center;
 }
 
@@ -19,10 +18,11 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 450px;
+  width: 100vw;
   height: 100vh; /* still not appearing on mobile the way I need it. */
 }
 .computer-console {
+  margin: 0 auto;
   background-color: #0370E9;
   color: #70E903;
   height: 40px;
@@ -35,6 +35,7 @@ body {
 }
 
 .button-box {
+  margin: 0 auto;
   width: 400px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -58,6 +59,7 @@ body {
 }
 
 #board {
+  margin: 0 auto;
   width: 400px;
   height: 400px;
   display: flex;

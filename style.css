@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 450px;
+  /* width: 450px; */
 }
 .computer-console {
   background-color: #0370E9;

@@ -9,6 +9,7 @@ green: #70E903
 body {
   background-color: black;
   width: 100vw;
+  justify-content: center;
 }
 
 .container {
@@ -16,10 +17,10 @@ body {
   font-family: sans-serif;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin: 0 auto;
   width: 450px;
-  height: 500px; /* still not appearing on mobile the way I need it. */
+  height: 100vh; /* still not appearing on mobile the way I need it. */
 }
 .computer-console {
   background-color: #0370E9;
